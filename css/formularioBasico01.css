@@ -1,3 +1,12 @@
+
+:root{
+    --tipoFuente:Arial;
+    --colorFuente:#fff;
+    --tamanioFuente:18px;
+    --colorFondoPrincipal:#21212c;
+    --colorContraste:#0C39B9;
+    --colorPlaceholder:#3398B9;
+}
 *{
     padding: 0%;
     margin: 0%;
@@ -8,42 +17,42 @@ body{
 }
 .form-registro{
     width: 450px;
-    background-color: #21212c;
+    background-color: var(--colorFondoPrincipal);
     padding: 30px;
     margin: auto;
     margin-top: 100px;
     border-radius: 4px;
-    font-family: 'calibri';
-    color: #fff;
+    font-family: var(--tipoFuente);
+    color: var(--colorFuente);
     box-shadow: 7px 17px 37px #000;
 }
 
 .form-registro h4{
-    font-size: 22px;
+    font-size: var(--tamanioFuente);
     margin-bottom: 20px;
 }
 
 .controles{
     width: 100%;
-    background-color: #21212c;
+    background-color: var(--colorFondoPrincipal);
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 4px;
-    border: 2px solid #0C39B9;
-    font-size: 18px;
+    border: 2px solid var(--colorContraste) ;
+    font-size: var(--tamanioFuente);
     height: 45px;
-    color:#fff;
+    color: var(--colorFuente);
 }
 
 .form-registro p{
-    font-size: 18px;
+    font-size: var(--tamanioFuente);
     height: 50px;
     text-align: center;
     line-height: 40px;
 }
 .form-registro a{
     text-decoration: none;
-    color:#fff;
+    color: var(--colorFuente);
 }
 
 .form-registro a:hover{
@@ -52,9 +61,9 @@ text-decoration: underline;
 
 .boton{
     width: 100%;
-    background-color: #0C39B9;
-    font-size: 22px;
-    color: #fff;
+    background-color: var(--colorContraste);
+    font-size: var(--tamanioFuente);
+    color: var(--colorFuente);
     border-radius: 8px;
     border: 0px;
     padding: 12px;
@@ -62,4 +71,8 @@ text-decoration: underline;
 
 .boton:hover{
     background-color: #4C74E6;
+}
+
+::placeholder{
+    color:var(--colorPlaceholder) ;
 }
