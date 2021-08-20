@@ -1,0 +1,83 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(127, 223, 31);
+}
+.opciones{
+    background-color: rgb(49, 163, 4);
+    list-style: none;
+    padding: 0;
+    margin: 30px 100px;
+    width: 90%;
+    max-width: 1000px;
+} 
+.opciones li{
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.opciones li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 7px;
+    
+}
+.opciones li a:hover{
+    background-color: rgb(99, 224, 49);
+    color: #000;
+}
+#formulario{
+    margin: 0px 100px; 
+    max-width: 500px;
+    border-radius: 4px;
+}
+.controles{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    height: 30px;
+    background-color: rgb(50, 241, 66);
+    color: #fff;
+    border:none;
+
+}
+::placeholder{
+    color: #000;
+}
+p{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 40px;
+
+}
+p a{
+    text-decoration: none;
+    color: #fff;
+}
+p a:hover{
+    text-decoration: underline;
+    color:#000
+}
+.enviar{
+    color: green;
+    width: 80%;
+    background-color: #fff;
+    font-size: 22px;
+    height: 30px;
+    padding: auto;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+
+}
+.enviar:hover{
+    background-color: rgb(4, 129, 4);
+    color: #fff;
+}
